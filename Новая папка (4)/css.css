@@ -1,0 +1,579 @@
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    right: 0;
+    z-index: 1000;
+    background: #b8d5e0;
+	  height: 17%;
+    margin-top: 50px;
+}
+
+
+.header_logo{font-size: 30px;
+    font-weight: 700;
+    color:#086f98;
+    
+    
+
+}
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{font:size 14px;
+    text-transform:uppercase;
+    
+
+
+}
+
+
+
+.p{
+    text-transform:uppercase;
+}
+
+
+
+
+.w1{
+    font-size: 40px;
+    bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12%;
+    color:#086f98;
+    transition: color .2s linear;
+    text-decoration: none;
+}
+    .w1:hover{
+        color: #65149e;}
+     .w1:last-child{border-right:none;
+
+        }
+
+
+
+
+.w2{
+ font-size: 20px;
+  bottom: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1%;
+  color:#086f98;
+  transition: color .2s linear;
+  margin-left:25%;
+
+  margin-top:8px;
+  text-decoration: none;
+}
+.w2::after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 2px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+
+.w2:hover:after,
+.w2:focus:after {
+width: 100%;
+}
+.w2:hover{
+color:#225384;
+  }
+
+    
+
+
+
+
+
+
+
+
+
+
+    .w3{
+    font-size: 18px;
+    position: absolute;
+    margin-top:-2%;
+    margin-left:95%;
+    text-decoration: none;
+    color:#086f98;
+}
+
+
+
+
+
+
+
+
+.w3::after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 2px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+
+.w3:hover:after,
+.w3:focus:after {
+width: 100%;
+}
+.w3:hover{
+color:#225384;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   
+.s1{margin-top: 3%;
+    margin-left:65%;
+    position: absolute;
+   
+
+}
+.s{margin-top: 3%;
+    margin-left:61%;
+    position: absolute;
+
+}
+
+
+
+
+.container_slider_css{margin:50px auto;width:400px;height:400px;overflow:hidden;position:relative}
+.photo_slider_css{position:absolute;animation:round 10s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay: 16s }
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0s}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+
+
+
+
+
+
+
+.g {
+  display: block;
+  width: 300px;
+  padding: 8px 10px;
+  
+  border: 0;
+  background-color: #086f98;
+  cursor: pointer;
+  
+  font-family: inherit;
+  font-size: 16px;
+  color: #fff;
+  margin-top:10px;
+  margin-right:-125px ;
+
+}
+
+
+.g:hover {
+  background-color: #064158;
+}
+.l3 {
+  display: block;
+  width: 300px;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  
+  border: 1px solid #13485e;
+  
+  font-family: inherit;
+  font-size: 16px;
+}
+.l2 {
+  max-width: 320px;
+  padding: 15px;
+  margin: 20px auto;
+  
+}
+.r1{
+  position: absolute;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  background-color: #f8f8f8;
+  margin-top: 200px;
+  margin-left:580px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.t2 {text-decoration: none;
+  color: #bce8ff;
+}
+
+.k1{font-size: 30px;
+  color: #13485e;
+  margin-left: -280px;
+  margin-top: 320px;
+  position: absolute;
+
+}
+
+.g42{position: absolute;
+  color: #13485e;
+  font-size: 25px;
+  margin-left:30px;
+  margin-top:70px;
+
+
+
+}
+
+ .v1{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 2%;
+  color: #247192;
+  
+ }
+
+ .v2{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 26.5%;
+  margin-top: 2%;
+  color: #247192;
+  
+ }
+ .v3{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 49.5%;
+  margin-top: 2%;
+  color: #247192;
+  
+ }
+ .v4{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 72.5%;
+  margin-top: 2%;
+  color: #247192;
+  
+ }
+ .v5{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 36%;
+  color: #247192;
+
+ }
+ 
+ .v6{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 26.5%;
+  margin-top: 36%;
+  color: #247192;
+
+ }
+ .v7{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 49.5%;
+  margin-top: 36%;
+  color: #247192;
+
+ }
+ .v8{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 72.5%;
+  margin-top: 36%;
+  color: #247192;
+
+
+ }
+
+
+
+ .v9{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 70%;
+  color: #247192;
+
+ }
+ .v10{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 26.5%;
+  margin-top: 70%;
+  color: #247192;
+
+
+ }
+ .v11{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 49.5%;
+  margin-top: 70%;
+    color: #247192;}
+
+
+ .v12{position: absolute;
+  font-size: 18px;
+  text-align: center;
+  margin-left: 72.5%;
+  margin-top: 70%;
+    color: #247192;}
+
+
+
+    
+.h24{position: absolute;
+  color: #13485e;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top:50px;
+  line-height: 15px;
+
+
+
+}
+
+.h19{position: absolute;
+  color: #13485e;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top:380px;
+  line-height: 15px;
+
+}
+
+.h20{position: absolute;
+  color: #13485e;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top:410px;
+  line-height: 18px;
+  text-align: justify;
+
+
+
+}
+
+
+
+.g6{text-decoration: none;
+  color: #000;
+  display: inline-block;
+  line-height: 1;
+}
+
+.g6:after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 3px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+  }
+  
+.g6:hover:after,
+.g6:focus:after {
+width: 100%;
+}
+.g6:hover{
+  color:#225384;
+  }
+
+
+
+
+   
+
+
+
+
+.nav_link{
+  margin: 10px;
+  font-size: 16px;
+  bottom: 15px;
+  text-decoration: none;
+  color: #086f98;
+  display: inline-block;
+  line-height: 1;
+  margin-top: 15%;
+  position: relative;
+  transition: color .2s linear;
+  vertical-align: top;
+}
+.nav_link::after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 2px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+
+.nav_link:hover:after,
+.nav_link:focus:after {
+width: 100%;
+}
+.nav_link:hover{
+  color:#225384;
+  }
+
+    
+
+
+ 
+
+.p1{font-size: 17px;
+  bottom: 20px;
+  display: inline-block;
+  vertical-align: auto;
+  margin: 20px;
+  color:#086f98;
+  text-decoration: none;
+  transition: color .2s linear;
+  text-transform:uppercase; 
+  display: inline-block;
+  padding: 3px 10px;
+  border-right: 1px solid #184b66;
+  margin-top: 9%;
+ }
+
+
+ .p1::after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 2px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+
+.p1:hover:after,
+.p1:focus:after {
+width: 100%;
+}
+.p1:hover{
+color:#225384;
+  }
+
+
+
+.footer{
+  width: 100%;
+    position: absolute;
+  
+    z-index: 1000;
+    background: #d1e9f3;
+	  height: 200px;
+    
+
+}
+.m1{color: #225384;
+  font-size: 20px;
+
+}
+
+
+
+
+.m2{font-size: 14px;
+  color: #225384;
+  text-decoration: none;
+}
+
+.m2::after {
+  display: block; /*превращаем его в блочный элемент*/
+  content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
+  height: 2px; /*задаём высоту линии*/
+  width: 0%; /*задаём начальную ширину элемента (линии)*/
+  background-color: #225384; /*цвет фона элемента*/
+  transition: width 0.4s ease-in-out;
+   /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
+    }
+
+.m2:hover:after,
+.m2:focus:after {
+width: 7.9%;
+}
+.m2:hover{
+  color:#225384;
+  }
+
+.m3{margin-left: 1100px;
+  margin-top: -70px;
+ 
+  
+
+}
+
+.m5{font-size: 20px;
+  color: #225384;
+
+
+}
+
+.v34{
+  margin-top: 80%;
+  margin-left: 50%;
+  margin-bottom: 30%;
+
+}
